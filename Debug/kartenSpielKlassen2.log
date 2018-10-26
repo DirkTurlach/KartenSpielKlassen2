@@ -1,0 +1,11 @@
+﻿  Karte.cpp
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\karte.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\karte.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\karte.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+  Code wird generiert...
+  Überspringen... (keine relevanten Änderungen gefunden)
+  mainK2.cpp
+  kartenSpielKlassen2.vcxproj -> C:\Users\CSL\OneDrive\Weiterbildung\Fachinformatiker\Programme\kartenspielKlassen\Debug\kartenSpielKlassen2.exe
