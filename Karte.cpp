@@ -37,12 +37,20 @@ void Karte::initKarteTest()
 
 //****************** Setter *****************************
 
-void Karte::setKartenWert(int x)
+void Karte::setKartenWert(int kartenWert)
 {
-	kartenWert = x;
+	Karte::kartenWert = kartenWert;
 }
 
+void Karte::setFarbe(char* farbe)
+{
+	strcpy(Karte::farbe[4], farbe);
+}
 
+void Karte::setKartenName(char* kartenName)
+{
+	strcpy(Karte::kartenName[13], kartenName);
+}
 //****************** Getter *****************************
 
 int Karte::getKartenWert()
@@ -50,6 +58,15 @@ int Karte::getKartenWert()
 	return kartenWert;
 }
 
+char* Karte::getFarbe()
+{
+	return farbe[4];
+}
+
+char* Karte::getKartenName()
+{
+	return kartenName[13];
+}
 //setFarbe(farbe);
 //setKartenName(kartenName);
 //setIstGezogen(istGezogen);
