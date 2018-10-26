@@ -8,9 +8,9 @@ void main()
 {
 	//Kartendeck deck;
 
-	Kartendeck deck;
+	Kartendeck deck[52];
 
-	deck.initKartendeck();	
+	deck->initKartendeck();	
 
-	deck.ausgabeKarte();
+	deck->ausgabeKarte();
 }
