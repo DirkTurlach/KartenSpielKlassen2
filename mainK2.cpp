@@ -1,23 +1,15 @@
 #include<iostream>
 using namespace std;
-#include "Karte.h"
+#include "Kartendeck.h"
 
 
 
 void main()
 {
-	Karte testkarte;
-	
-	testkarte.initKarteTest();
-	testkarte.ausgabeKarte();
-	cout << endl;
+	Kartendeck deck1;
+	deck1.initKartendeck();
 
-	testkarte.setKartenWert(4);
-	testkarte.setFarbe("blau");
-	testkarte.setKartenName("Heinz");
+	deck1.k.getKartenWert();
 
-	testkarte.ausgabeKarte();
-	cout << "Der neue Kartenwert ist: " << testkarte.getKartenWert() << endl;
-	cout << "Die neue Kartenfarbe ist: " << testkarte.getFarbe() << endl;
-	cout << "Der neue Kartenname ist: " << testkarte.getKartenName() << endl;
+	cout << deck1.k.getKartenWert() << endl;
 }

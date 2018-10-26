@@ -16,24 +16,21 @@ using namespace std;
 //	setKartenNummer(kartenNummer);
 //}
 
-void Karte::ausgabeKarte()
-{
-	cout << kartenWert << endl;
-	cout << *farbe << endl;
-	cout << *kartenName << endl;
-}
+//************ Testmethoden *****************************
 
-void Karte::changeFarbe()
-{
-	strcpy(*farbe,"Pik");
-}
+//void Karte::ausgabeKarte()
+//{
+//	cout << kartenWert << endl;
+//	cout << *farbe << endl;
+//	cout << *kartenName << endl;
+//}
+//
+//void Karte::changeFarbe()
+//{
+//	strcpy(*farbe,"Pik");
+//}
 
-void Karte::initKarteTest()
-{
-	kartenWert = 3;
-	strcpy(*farbe,"Herz");
-	strcpy(*kartenName,"drei");
-}
+
 
 //****************** Setter *****************************
 
@@ -67,7 +64,3 @@ char* Karte::getKartenName()
 {
 	return kartenName[13];
 }
-//setFarbe(farbe);
-//setKartenName(kartenName);
-//setIstGezogen(istGezogen);
-//setKartenNummer(kartenNummer);

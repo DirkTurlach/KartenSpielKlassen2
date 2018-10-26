@@ -4,14 +4,11 @@ private:
 	int		kartenWert;
 	char	farbe[4][10];
 	char	kartenName[13][10];
-
-public:
 	bool	istGezogen;
 	int		kartenNummer;
 
-	void	ausgabeKarte();
-	void	changeFarbe();
-	void	initKarteTest();
+public:
+
 	//Karte();
 	//Karte(int, char*, char*, bool, int);
 
