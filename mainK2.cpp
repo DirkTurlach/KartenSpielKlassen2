@@ -6,10 +6,11 @@ using namespace std;
 
 void main()
 {
-	Kartendeck deck1;
-	deck1.initKartendeck();
+	//Kartendeck deck;
 
-	deck1.k.getKartenWert();
+	Kartendeck deck;
 
-	cout << deck1.k.getKartenWert() << endl;
+	deck.initKartendeck();	
+
+	deck.ausgabeKarte();
 }

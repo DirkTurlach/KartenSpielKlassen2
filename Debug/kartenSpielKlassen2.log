@@ -1,2 +1,20 @@
-﻿  Kartendeck.cpp
-  kartenSpielKlassen2.vcxproj -> C:\Users\CSL\OneDrive\Weiterbildung\Fachinformatiker\Programme\kartenspielKlassen\Debug\kartenSpielKlassen2.exe
+﻿Der Buildvorgang wurde am 26.10.2018 17:29:02 gestartet.
+     1>Projekt "C:\Users\Dirk\OneDrive\Weiterbildung\Fachinformatiker\Programme\kartenSpielKlassen2\kartenSpielKlassen2.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "Debug\kartenSpielKlassen2.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+       ManifestResourceCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         Alle Ausgaben sind aktuell.
+       Manifest:
+         Alle Ausgaben sind aktuell.
+       FinalizeBuildStatus:
+         Die Datei "Debug\kartenSpielKlassen2.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Debug\kartenSpielKlassen2.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\Dirk\OneDrive\Weiterbildung\Fachinformatiker\Programme\kartenSpielKlassen2\kartenSpielKlassen2.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:00.10

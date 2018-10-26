@@ -1,6 +1,6 @@
 class Karte
 {
-private:
+public:
 	int		kartenWert;
 	char	farbe[4][10];
 	char	kartenName[13][10];

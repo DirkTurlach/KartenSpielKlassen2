@@ -6,10 +6,9 @@ public:
 	//Kartendeck(void);
 
 	Karte k;
-
+	
 	void	initKartendeck();
 	
 	void	ausgabeKarte();
-	void	changeFarbe();
 };
 

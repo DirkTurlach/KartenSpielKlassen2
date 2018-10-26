@@ -16,22 +16,6 @@ using namespace std;
 //	setKartenNummer(kartenNummer);
 //}
 
-//************ Testmethoden *****************************
-
-//void Karte::ausgabeKarte()
-//{
-//	cout << kartenWert << endl;
-//	cout << *farbe << endl;
-//	cout << *kartenName << endl;
-//}
-//
-//void Karte::changeFarbe()
-//{
-//	strcpy(*farbe,"Pik");
-//}
-
-
-
 //****************** Setter *****************************
 
 void Karte::setKartenWert(int kartenWert)
