@@ -1,14 +1,16 @@
 #include "Karte.h"
 
+
 class Kartendeck
 {
 public:
-	//Kartendeck(void);
-
-	Karte k;
+	Karte k[52];
+	int aktuelleKarte;
 	
-	void	initKartendeck();
-	
-	void	ausgabeKarte();
+	void initKartendeck();	
+	void ausgabe();
+	void mischen();
 };
+
+
 

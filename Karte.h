@@ -2,10 +2,10 @@ class Karte
 {
 public:
 	int		kartenWert;
-	char	farbe[4][10];
-	char	kartenName[13][10];
-	bool	istGezogen;
-	int		kartenNummer;
+	char	farbe [10];
+	char	kartenName[10];
+	//bool	istGezogen;
+	//int		kartenNummer;
 
 public:
 

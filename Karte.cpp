@@ -25,12 +25,12 @@ void Karte::setKartenWert(int kartenWert)
 
 void Karte::setFarbe(char* farbe)
 {
-	strcpy(Karte::farbe[4], farbe);
+	strcpy(Karte::farbe, farbe);
 }
 
 void Karte::setKartenName(char* kartenName)
 {
-	strcpy(Karte::kartenName[13], kartenName);
+	strcpy(Karte::kartenName, kartenName);
 }
 //****************** Getter *****************************
 
@@ -41,10 +41,10 @@ int Karte::getKartenWert()
 
 char* Karte::getFarbe()
 {
-	return farbe[4];
+	return farbe;
 }
 
 char* Karte::getKartenName()
 {
-	return kartenName[13];
+	return kartenName;
 }
