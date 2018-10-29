@@ -14,11 +14,11 @@ void Kartendeck::initKartendeck()
 		for(int j = 0; j < 13; j++)
 		{
 			//cout << i << "   " << farbe[i] << endl;
-			strcpy(k[i*13 + j].farbe, farbe[i]);
+			k[i*13 + j].setFarbe(farbe[i]);
 
-			k[i*13 + j].kartenWert = wert[j]; 
+			k[i*13 + j].setKartenWert(wert[j]); 
 
-			strcpy(k[i*13 + j].kartenName, name[j]);
+			k[i*13 + j].setKartenName(name[j]);
 
 //			k[i*13 + j].isGezogen = 1;
 		}
@@ -30,9 +30,9 @@ void Kartendeck::ausgabe()
 {
 	for (int i = 1; i < 52; i++)
 	{	
-		cout << k[i].getKartenName() << "  ";
-		cout << k[i].getFarbe() << "   ";
-		cout << k[i].getKartenWert() << endl;
+		cout << setw(6) << left << k[i].getKartenName() << "  ";
+		cout << setw(6) << left << k[i].getFarbe() << "   ";
+		cout << setw(6) << left << k[i].getKartenWert() << endl;
 	}
 }
 

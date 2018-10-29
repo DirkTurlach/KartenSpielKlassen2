@@ -1,6 +1,5 @@
 #include "Karte.h"
 
-
 class Kartendeck
 {
 public:

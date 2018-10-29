@@ -1,1 +1,15 @@
-﻿
+﻿  mainK2.cpp
+  Spieler.cpp
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(8): warning C4832: Das Token '.' ist nach UDT 'Kartendeck' illegal
+          c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\kartendeck.h(4): Siehe Deklaration von 'Kartendeck'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(8): error C2275: 'Kartendeck': Ungültige Verwendung dieses Typs als Ausdruck
+          c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\kartendeck.h(4): Siehe Deklaration von 'Kartendeck'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(8): error C2228: Links von ".aktuelleKarte" muss sich eine Klasse/Struktur/Union befinden.
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(9): error C2065: 'k': nichtdeklarierter Bezeichner
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(9): error C2228: Links von ".isGezogen" muss sich eine Klasse/Struktur/Union befinden.
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(10): error C2143: Syntaxfehler: Es fehlt ')' vor '.'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(10): error C2059: Syntaxfehler: '.'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\kartenspielklassen2\spieler.cpp(10): error C2059: Syntaxfehler: ')'
+  Code wird generiert...
+  Überspringen... (keine relevanten Änderungen gefunden)
+  Kartendeck.cpp

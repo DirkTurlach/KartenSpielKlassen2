@@ -4,8 +4,8 @@ public:
 	int		kartenWert;
 	char	farbe [10];
 	char	kartenName[10];
-	//bool	istGezogen;
-	//int		kartenNummer;
+	bool	istGezogen;
+	int		kartenNummer;
 
 public:
 
@@ -15,13 +15,13 @@ public:
 	void	setKartenWert(int);
 	void	setFarbe(char*);
 	void	setKartenName(char*);
-	//void	setIstGezogen(bool);
-	//void	setKartenNummer(int);
+	void	setIstGezogen(bool);
+	void	setKartenNummer(int);
 
 	int		getKartenWert();
 	char*	getFarbe();
 	char*	getKartenName();
-	//bool	getIstGezogen();
-	//int		getKartenNummer();
+	bool	getIstGezogen();
+	int		getKartenNummer();
 };
 
